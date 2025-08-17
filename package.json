@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Vandrei-rar/Web-Development-Classes#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2"
   }
 }
