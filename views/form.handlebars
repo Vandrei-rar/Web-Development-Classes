@@ -1,0 +1,20 @@
+<div class="form-container">
+    <form class="form-content" method="post" action="/form/create">
+        <div class="form-field">
+            <label>Pode digitar algo</label>
+            <input name="nome" type="text" placeholder="Seu nome">
+        </div>
+        <div class="form-field">
+            <label>Digite a senha</label>
+            <input name="senha" type="password" placeholder="Digite a senha">
+        </div>
+
+        <div class="form-button-container">
+            <button type="submit" class="form-button">Enviar</button>
+        </div>
+    </form>
+
+    <div class="usuario-logado">
+        <h3>{{nomeUser}}</h3>
+    </div>
+</div>
