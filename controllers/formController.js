@@ -22,7 +22,7 @@ const postForm = (req, res) => {
     console.log(dados)
     console.log("Houve interação do usuário")
 
-    return res.redirect("/form")
+    return res.send("<h1 style='color: green; background-color: black;'>Acesso permitido</h1>")
 }
 
 module.exports = { getFormPage, postForm }
